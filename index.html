@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calle Del Drip</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <style>
+
+    .drip-gradient {
+      background: linear-gradient(145deg, #ff0000, #000000);
+    }
+    .drip-shadow {
+      text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.7), -2px -2px 6px rgba(255, 0, 0, 0.8);
+    }
+    .drip-button {
+      background: linear-gradient(145deg, #000000, #ff0000);
+      box-shadow: 0 5px 15px rgba(255, 2, 2, 0.3), inset 0 1px 6px rgba(0, 0, 0, 0.2);
+      border: none;
+      color: #ffffff;
+      font-weight: bold;
+    }
+    .drip-border {
+      border: 3px solid rgba(255, 0, 0, 0.8);
+      border-radius: 8px;
+    }
+    .drip-text {
+      font-family: 'Impact', sans-serif;
+      letter-spacing: 2px;
+    }
+  </style>
+</head>
+<body class="bg-gray-900 text-white font-sans antialiased">
+
+<!-- Header -->
+<header class="drip-gradient p-8 text-center">
+  <h1 class="text-6xl drip-shadow drip-text font-bold">CALLE DEL DRIP</h1>
+  <nav class="mt-6">
+    <ul class="flex justify-center space-x-8 text-2xl">
+      <li><a href="#" class="hover:text-pink-400">MENU</a></li>
+      <li><a href="#" class="hover:text-pink-400">GALERIA</a></li>
+      <li><a href="#" class="hover:text-pink-400">TIENDA</a></li>
+      <li><a href="#" class="hover:text-pink-400">CONTACTO</a></li>
+    </ul>
+  </nav>
+</header>
+
+<!-- Main Section -->
+<main class="text-center p-12">
+  <h2 class="text-5xl drip-shadow drip-text font-extrabold mb-6">Libera tu drip</h2>
+  <p class="text-2xl mb-8">Lleva tu estilo callejero al siguiente nivel con moda y cultura drip.</p>
+  <button class="drip-button py-4 px-8 rounded-full text-2xl transition-transform transform hover:scale-110">
+    explora la nueva coleccion
+  </button>
+</main>
+
+<!-- Footer -->
+<footer class="drip-gradient p-6 text-center">
+  <p class="drip-shadow drip-text">© 2024 - Calle Del Drip. Mejora tu estilo.</p>
+</footer>
+
+</body>
+</html>
+
